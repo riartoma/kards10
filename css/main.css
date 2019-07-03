@@ -115,7 +115,7 @@ h5, .h05, h6, .h06 {
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
-	font-size: 2.7rem;
+	font-size: 3.1rem;
 	line-height: 1.355;
 	letter-spacing: -.1rem;
 }
@@ -1020,7 +1020,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #CAD2FF;
+	background: #ebebeb;
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1294,12 +1294,11 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #F70A1C;
-	/* url(../images/intro-bg.jpg) no-repeat center bottom;*/
+	background: #151515 url(../images/arbol.jpeg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
 	min-height: 720px;
@@ -1325,9 +1324,9 @@ header .logo a {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-.intro-content h1 {
+.intro-content h2 {
 	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1335,7 +1334,7 @@ header .logo a {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0 20px rgba(38, 73, 187, 0.842);
 }
 .intro-content h5 {
 	color: #cc005f;
