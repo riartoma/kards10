@@ -1,0 +1,87 @@
+.fadeIn{/*realiza una animacion de unA ETIQUEA ESPACIFICA y hace que aparezca al inicio.
+    animacion de desvanecimiento*/
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+
+}@keyframes fadeIn{/*aCCION A EJECUTAR*/
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    };
+}
+
+.fadeInDown{
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+
+}@keyframes fadeInDown{/*aCCION A EJECUTAR*/
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+        
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        
+    };
+}
+
+.fadeInUp{
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}@keyframes fadeInUp{/*aCCION A EJECUTAR*/
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,500%,0);
+        transform: translate3d(0,500%,0);
+        
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        
+    };
+}
+
+.fadeInUp2{
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp2;
+    animation-name: fadeInUp2;
+}@keyframes fadeInUp2{/*aCCION A EJECUTAR*/
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(50%,100%,0);
+        transform: translate3d(50%,100%,0);
+        
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        
+    };
+}
+
+
