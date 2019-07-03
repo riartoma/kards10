@@ -6,6 +6,8 @@
     animation-fill-mode: both;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
+    box-shadow: 0 0 100px rgb(163, 26, 26)
+    
 
 }@keyframes fadeIn{/*aCCION A EJECUTAR*/
     from{
@@ -47,6 +49,7 @@
     animation-fill-mode: both;
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+    
 }@keyframes fadeInUp{/*aCCION A EJECUTAR*/
     from{
         opacity: 0;
